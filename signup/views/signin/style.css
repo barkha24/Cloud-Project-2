@@ -1,0 +1,47 @@
+body{
+        background: #673AB7;
+        background-size: 400% 400%;
+
+        -webkit-animation: AnimationName 20s ease infinite;
+        -moz-animation: AnimationName 20s ease infinite;
+        animation: AnimationName 20s ease infinite
+    }
+    h1 { color:#fff;}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:15% 0%}
+        50%{background-position:86% 100%}
+        100%{background-position:15% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:15% 0%}
+        50%{background-position:86% 100%}
+        100%{background-position:15% 0%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:15% 0%}
+        50%{background-position:86% 100%}
+        100%{background-position:15% 0%}
+    }
+    .textbox{
+        margin: 20px 0;
+        padding: 15px 20px;
+        height: 45px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .1);
+        border: 1px solid rgba(255, 255, 255, .2);
+        border-radius: 3px;
+        box-shadow: none !important;
+        transition: all .2s linear;
+    }
+    .btn-osx{
+        margin: 10px 0;
+        padding: 5px 10px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .1);
+        border: 1px solid rgba(255, 255, 255, .2);
+        border-radius: 3px;
+        box-shadow: none !important;
+        transition: all .2s linear;
+        border-radius: 50%
+    }
+
