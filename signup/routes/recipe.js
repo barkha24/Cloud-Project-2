@@ -1,8 +1,8 @@
 var express = require( "express" );
-var app = express();
 var querystring = require("querystring");
-
-
+var bodyParser=require("body-parser");
+var app = express();
+app.use(bodyParser.json());
 app.get('/getRecipe', function(req, res){
 var format = req.query.format,
 recipeId=req.query.recipeId;
@@ -28,7 +28,7 @@ userInfo.id="12345";
 userInfo.name="Bob";
 
 res.send(userInfo);
-
+res.sendStatus(200);
 
 });
 app.get('/getRecipes' , function(req,res){
@@ -55,5 +55,14 @@ getRecipe=req.params.getRecipe,
 format=req.query.format;
 
 });
+//app.use(express.bodyParser());
+app.post('/modify', function(req, res){
+//res.setHeader('Content-Type','application/json');
+
+console.log(req.body);
+res.send("OKAY");
+res.sendStatus(200);
+});
+
 
 app.listen(80);
