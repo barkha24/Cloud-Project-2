@@ -10,3 +10,4 @@ VoiceId='Joanna',
 OutputFormat='mp3')
 
 print(response)
+response['AudioStream']
