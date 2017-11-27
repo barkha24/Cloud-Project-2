@@ -23,7 +23,7 @@ import boto3.session
 from botocore.exceptions import ClientError
 import botocore.session
 app = Flask(__name__)
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = set(['txt', 'doc'])
 app.secret_key = 'sdg is crazy'
 config = ConfigParser.ConfigParser()
 
