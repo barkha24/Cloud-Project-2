@@ -24,7 +24,7 @@ from botocore.exceptions import ClientError
 import botocore.session
 app = Flask(__name__)
 ALLOWED_EXTENSIONS = set(['txt', 'doc'])
-app.secret_key = 'sdg is crazy'
+app.secret_key = '#####'
 config = ConfigParser.ConfigParser()
 
 aid = ''
@@ -40,7 +40,7 @@ def test():
         global apwd
         global bucket_name
         username=request.form['userName']
-                                                                                                                             1,1           Top
+                                                                                                                            
         s3 = boto3.resource('s3',aws_access_key_id='access_key',aws_secret_access_key='secret key')
         fContent=s3.Object('sdg-cred', 'creds.txt').get()['Body'].read()
         fw=open('/var/www/html/flaskapp/input1.txt','w+')
