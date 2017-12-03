@@ -1,0 +1,20 @@
+{ 
+
+   "recipeTitle" : "chips"
+   [ 
+      {  "sleep" : "10s",
+	     "instruction" : "take 2 potatoes"
+	   },
+	        {  "sleep" : "10s",
+	     "instruction" :"peel the potatoes"
+	   },
+       {  "sleep" : "10s",
+	     "instruction" : "slice the potatoes"
+	   }
+	   {  "sleep" : "10s",
+	     "instruction" : "freeze the sliced potatoes"
+	   }
+ 
+   ]
+   
+   }
