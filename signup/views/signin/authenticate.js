@@ -16,7 +16,7 @@ $(document).ready(function() {
           success: function(newData){
               console.log('success');
               //console.log(newData);
-              window.location= 'http://dock2.hyunwookshin.com:8084'
+              window.location= 'home.html'
          }
        });
   },
@@ -48,7 +48,7 @@ $(document).ready(function() {
           success: function(newData){
               console.log('success');
               //console.log(newData);
-              window.location= 'http://dock2.hyunwookshin.com:8084'
+              window.location= 'index.html'
          }
        });
   },
