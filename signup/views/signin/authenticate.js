@@ -20,6 +20,11 @@ $(document).ready(function() {
          }
        });
   },
+error: function (e) {
+
+  $("#resultdata").text(e.responseText);
+    console.log("ERROR : ", e);
+            }
   complete: function () {
         // Schedule the next request when the current one has been completed
 
