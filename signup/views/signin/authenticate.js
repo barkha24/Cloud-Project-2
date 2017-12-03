@@ -11,7 +11,7 @@ $(document).ready(function() {
     success: function(resultdata){
       $.ajax({
           type: 'GET',
-          url: 'http://dock2.hyunwookshin.com:8084',
+          url: 'http://dock2.hyunwookshin.com:8044',
           headers: {"x-access-token": resultdata.token},
           success: function(newData){
               console.log('success');
