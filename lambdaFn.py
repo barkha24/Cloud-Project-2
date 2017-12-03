@@ -5,7 +5,7 @@ import boto3
 
 def lambda_handler(event, context):
     client = boto3.client('s3') 
-    s3 = boto3.resource('s3', aws_access_key_id='AKIAJNEOSFR76VQBIVUA',aws_secret_access_key='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')
+    s3 = boto3.resource('s3', aws_access_key_id='***',aws_secret_access_key='***')
     bucket = s3.Bucket('recipebucketv1')
     bucket2 = s3.Bucket('txtmp3bucketv1')
     
