@@ -1,12 +1,10 @@
 <?php
-require 'tmhOAuth.php'; // Get it from: https://github.com/themattharris/tmhOAuth
-// Use the data from http://dev.twitter.com/apps to fill out this info
-// notice the slight name difference in the last two items)
+require 'tmhOAuth.php'; 
 $connection = new tmhOAuth(array(
-  'consumer_key' => '7w2pNZGboJPSNqQs9Zt982vQX',
-	'consumer_secret' => '5WfUuN1B2IZ9JUXoZGY6f8vdMQAKeDLiUzZSAytdBxGw6nWB3g',
-	'user_token' => '923223880524644353-o9kbfng8J8HqQu0iyQKYP0uJbsOtPSN', //access token
-	'user_secret' => 'kbAohAAzKlPycjyKF3QsoKH2Jz9aOD7zEbAn7TUe06bnM' //access token secret
+  'consumer_key' => '########################',
+	'consumer_secret' => '########################',
+	'user_token' => '########################', //access token
+	'user_secret' => '########################' //access token secret
 ));
 // set up parameters to pass
 $parameters = array();
