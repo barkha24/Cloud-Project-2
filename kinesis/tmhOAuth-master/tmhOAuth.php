@@ -40,10 +40,10 @@ class tmhOAuth {
         'host'                       => 'api.twitter.com',
         'method'                     => 'GET',
 
-        'consumer_key'               => '7w2pNZGboJPSNqQs9Zt982vQX',
-        'consumer_secret'            => '5WfUuN1B2IZ9JUXoZGY6f8vdMQAKeDLiUzZSAytdBxGw6nWB3g',
-        'token'                      => '923223880524644353-o9kbfng8J8HqQu0iyQKYP0uJbsOtPSN',
-        'secret'                     => 'kbAohAAzKlPycjyKF3QsoKH2Jz9aOD7zEbAn7TUe06bnM',
+        'consumer_key'               => '########################',
+        'consumer_secret'            => '########################',
+        'token'                      => '########################',
+        'secret'                     => '########################',
 
         // OAuth2 bearer token. This should already be URL encoded
         'bearer'                     => '',
