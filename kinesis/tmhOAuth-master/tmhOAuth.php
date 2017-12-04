@@ -6,10 +6,7 @@
  * The library supports file uploading using multipart/form as well as general
  * REST requests. OAuth authentication is sent using an Authorization Header.
  *
- * @author themattharris
- * @version 0.8.4
- *
- * 06 Aug 2014
+ * 
  */
 defined('__DIR__') or define('__DIR__', dirname(__FILE__));
 
