@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>.....</h1>
+<script src="tweets_json.php?count=30&callback=listTweets type="text/javascript"></script>
+
+<script type ="text/javascript">
+	$(document).ready(function(){
+		var refreshID = setInterval(function(){
+			$.getJSON('tweets_json.php?count=30',function(data)){
+				list.Tweets(data);
+				$('#tweetlist').trigger('create');
+			});
+		});
+	},5000 );
+
+</script>
+</body>
+</html>
